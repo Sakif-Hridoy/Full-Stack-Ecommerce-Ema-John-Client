@@ -2,7 +2,8 @@
     text-align: center;
 }
 .logo{
-    height: 50px;
+    height: 100px;
+    margin:0px;
 }
 .header nav {
     background-color: black;
