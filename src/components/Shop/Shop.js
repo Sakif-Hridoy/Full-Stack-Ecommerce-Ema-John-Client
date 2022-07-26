@@ -8,7 +8,12 @@ const Shop = () => {
     // const [cart, setCart] = useState([]);
 
     useEffect(() => {
-        fetch('./products.json')
+        fetch('./products.json',{
+            headers : { 
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+               }
+        })
             .then(res => res.json())
             .then(data => console.log(data));
     }, []);
