@@ -9,9 +9,8 @@ const Product = (props) => {
 
     return (
         <div className="product">
-            <h4>This is product</h4>
             <div>
-                <img src={img} alt="" />
+                <img className="img" src={img} alt="" />
             </div>
             <div>
                 <h4 className="product-name">{name}</h4>
@@ -19,7 +18,7 @@ const Product = (props) => {
                 <p>Price: {price}</p>
                 <p><small>only {stock} left in stock - order soon</small></p>
                 <button
-                    onClick={() => props.handleAddToCart(props.product)}
+                    // onClick={() => props.handleAddToCart(props.product)}
                     className="btn-regular"
                 ><FontAwesomeIcon icon={faShoppingCart} /> add to cart</button>
             </div>
