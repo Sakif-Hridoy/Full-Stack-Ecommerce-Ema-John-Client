@@ -1,23 +1,23 @@
 .header{
-    text-align: center;
     height: 80px;
     background-color: #1C2B35;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
 }
-/* .logo{
+.logo{
     height: 100px;
     margin:0px;
 }
-.header nav {
-    background-color: black;
-    line-height: 40px;
+.header a{
+color: #FFFFFF;
+text-decoration: none;
+font-size: 17px;
+margin-left: 36px;
 }
-.header nav a{
-    text-decoration: none;
-    color: white;
-    margin-right: 20px;
-    padding: 5px;
-    font-size: 20px;
+
+.header a:hover{
+    color: orange;
 }
-.header nav a:hover{
-    background-color: lightgray;
-} */
