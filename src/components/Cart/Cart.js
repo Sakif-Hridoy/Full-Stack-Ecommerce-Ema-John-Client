@@ -6,7 +6,6 @@ const Cart = (props) => {
 
     return (
         <div>
-            <h3>Order Summary</h3>
             <h5>Items Ordered:</h5>
             <br />
             <p>Total:</p>
