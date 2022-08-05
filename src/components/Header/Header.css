@@ -1,7 +1,9 @@
 .header{
     text-align: center;
+    height: 80px;
+    background-color: #1C2B35;
 }
-.logo{
+/* .logo{
     height: 100px;
     margin:0px;
 }
@@ -18,4 +20,4 @@
 }
 .header nav a:hover{
     background-color: lightgray;
-}
+} */

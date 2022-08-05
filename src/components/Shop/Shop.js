@@ -18,10 +18,11 @@ const Shop = () => {
             .then(data => setProducts(data));
     }, []);
 
-    // const handleAddToCart = (product) => {
-    //     const newCart = [...cart, product];
-    //     setCart(newCart);
-    // }
+    const handleAddToCart = (product) => {
+        console.log(product)
+        const newCart = [...cart, product];
+        setCart(newCart);
+    }
 
 
     return (
@@ -31,7 +32,7 @@ const Shop = () => {
                     products.map(product => <Product
                         key={product.key}
                         product={product}
-                        // handleAddToCart={handleAddToCart}
+                        handleAddToCart={handleAddToCart}
                     >
                     </Product>)
                 }
