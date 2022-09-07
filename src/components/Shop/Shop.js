@@ -23,7 +23,8 @@ const Shop = () => {
         const storedCart = getStoredCart();
         console.log(storedCart)
         for(const key in storedCart){
-            console.log(key)
+            const addedProduct = products.find(product=> product.key == key)
+            console.log(addedProduct)
         }
     },[])
 
